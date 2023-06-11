@@ -1,0 +1,3 @@
+theme: jekyll-theme-minimal
+title: Simone's Simulations
+description: I'm Simone Gordon, a PhD student of Computational Astrophysics at the University of Edinburgh. I work under the supervision of Dr Britton Smith and Prof. Sadegh Khochfar. My research involves studying accretion onto stellar-mass black holes that form from Population III stars, the oldest stars in the Universe. I simulate these black holes in high resolution (sub 0.1 pc scales) using the cosmological, hydrodynamics + N-body, AMR code Enzo. This is where I host plots and movies of my simulations. Enjoy!
