@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simone's Simulations</title>
+  <style>
+    body {
+      background-image: url("https://webb.nasa.gov/content/webbLaunch/assets/images/images2023/jun-05-23-STScI-01H1Q2DKR7FRQAMDGBGCDAMSPX-8k.jpg");
+      background-size: cover;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ffd700;
+      margin: 0;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main section {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #ffd700;
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      text-align: center;
+    }
+
+    .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+  .row {
+    flex-basis: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simone's Simulations</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Research Papers</a></li>
+        <li><a href="#">Plots</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>I'm Simone Gordon, a PhD student of Computational Astrophysics at the University of Edinburgh. I work under the supervision of Dr Britton Smith and Prof. Sadegh Khochfar. My research involves studying accretion onto stellar-mass black holes that form from Population III stars, the oldest stars in the Universe. I simulate these black holes in high resolution (sub 0.1 pc scales) using the cosmological, hydrodynamics + N-body, AMR code Enzo. This is where I host plots and movies of my simulations. Enjoy!</p>
+    </section>
+    
+    <section>
+      <h2>Plots</h2>
+      
+      <!-- Add your plots here -->
+    </section>
+
+    <section>
+      <h2>Movies</h2>
+      <p>Collection of movies relevant to Paper 1.</p>
+      
+      <div class="movies-container">
+	<div class="row">
+	  <figure>
+            <video width="640" height="480" controls>
+              <source src="/System/Volumes/Data/Users/s1986236/Simulations/pop3-smartstar/cirrus/1S.RSb04_temperature_8pc.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+            </video>
+            <figcaption style="width: 100%; text-align: left;">Temperature map of 10.8 solar mass black hole forming in the wake of a Type-II supernova within a pristine gas cloud at z = 26.3. This stellar-mass black hole is expected to form from the collapse of 40 solar-mass Population III star, though the radiative lifetime of this star is not simulated here. The supernova releases metals into the environment which cool the gas around the black hole.</figcaption>
+	  </figure>
+	  <figure>
+            <video width="640" height="480" controls>
+              <source src="/System/Volumes/Data/Users/s1986236/Simulations/pop3-smartstar/cirrus/1S.RSmf8_SNColour.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+            </video>
+            <figcaption style="width: 100%; text-align: left;">Metal density map of 10.8 solar mass black hole forming in the wake of a Type-II supernova within a pristine gas cloud at z = 26.3. This stellar-mass black hole is expected to form from the collapse of 40 solar-mass Population III star, though the radiative lifetime of this star is not simulated here. The supernova releases metals into the environment which cool the gas around the black hole.</figcaption>
+	  </figure>
+	</div>
+
+	<div class="row">
+	  <figure>
+            <video width="640" height="480" controls>
+              <source src="/System/Volumes/Data/Users/s1986236/Simulations/pop3-smartstar/cirrus/1S.RSb04_SNColour.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+            </video>
+            <figcaption style="width: 100%; text-align: left;">Metal density map of a 10.8 solar mass black hole forming in the wake of a Type-II supernova within a pristine gas cloud at z = 26.3. This stellar-mass black hole is expected to form from the collapse of 40 solar-mass Population III star, though the radiative lifetime of this star is not simulated here. The supernova releases metals into the environment which cool the gas around the black hole.</figcaption>
+	  </figure>
+	  
+	  <figure>
+            <video width="640" height="480" controls>
+              <source src="/System/Volumes/Data/Users/s1986236/Simulations/pop3-smartstar/cirrus/1S.b01_face-on_metallicity_50pc.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+            </video>
+            <figcaption style="width: 100%; text-align: left;">Metallicity map at 50pc across of a 10.8 solar mass black hole forming in the wake of a Type-II supernova within a pristine gas cloud at z = 26.3. This stellar-mass black hole is expected to form from the collapse of 40 solar-mass Population III star, though the radiative lifetime of this star is not simulated here. The supernova releases metals into the environment which cool the gas around the black hole.</figcaption>
+	  </figure>
+	</div>
+	
+	<div class="row">
+	  <figure>
+            <video width="640" height="480" controls>
+              <source src="/System/Volumes/Data/Users/s1986236/Simulations/pop3-smartstar/cirrus/1S.m04-no-SN_face-on_number_density_1.5pc.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+            </video>
+            <figcaption style="width: 100%; text-align: left;">Gas density map of 10.8 msun black hole forming at high resolution without a supernova event preceding it.</figcaption>
+	  </figure>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Contact</h2>
+      <p>email: simone.gordon@ed.ac.uk</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Simone Gordon</p>
+  </footer>
+</body>
+</html>
